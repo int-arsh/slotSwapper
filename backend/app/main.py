@@ -6,7 +6,7 @@ from .routes import users, events, swaps
 
 
 def create_app() -> FastAPI:
-    app = FastAPI(title="ServiceHive SlotSwapper", version="1.0.0")
+    app = FastAPI(title="SlotSwapper", version="1.0.0")
 
     # CORS for local frontend
     origins = [

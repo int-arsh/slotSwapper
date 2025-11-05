@@ -5,4 +5,5 @@ pydantic
 bcrypt
 pyjwt
 python-multipart
+python-dotenv
 
